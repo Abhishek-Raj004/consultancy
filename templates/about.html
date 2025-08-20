@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}About Us | ConsultCo{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-20 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-bounce">About Us</h1>
+    <p class="max-w-2xl mx-auto text-lg">Learn more about our journey, values, and mission to empower businesses worldwide.</p>
+</section>
+
+<!-- Company Story -->
+<section class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+        <h2 class="text-3xl font-bold mb-4">Who We Are</h2>
+        <p class="text-gray-700 mb-4">
+            Founded in 2015, <strong>ConsultCo</strong> started as a small group of passionate business consultants determined to help startups grow. 
+            Over the years, we have expanded globally, partnering with companies across industries.
+        </p>
+        <p class="text-gray-700">
+            Our mission is to provide innovative strategies, financial guidance, and technology solutions that empower businesses to thrive in a competitive world.
+        </p>
+    </div>
+    <img src="https://source.unsplash.com/600x400/?team,office" alt="Our Team" class="rounded-2xl shadow">
+</section>
+
+<!-- Timeline / Journey -->
+<section class="bg-gray-100 py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Journey</h2>
+    <div class="max-w-4xl mx-auto">
+        <ol class="relative border-l border-blue-300">
+            <li class="mb-10 ml-6">
+                <div class="absolute w-3 h-3 bg-blue-600 rounded-full mt-2.5 -left-1.5"></div>
+                <time class="mb-1 text-sm text-gray-500">2015</time>
+                <h3 class="text-lg font-semibold text-gray-900">Founded ConsultCo</h3>
+                <p class="text-gray-600">Started with a small team of consultants passionate about driving business growth.</p>
+            </li>
+            <li class="mb-10 ml-6">
+                <div class="absolute w-3 h-3 bg-blue-600 rounded-full mt-2.5 -left-1.5"></div>
+                <time class="mb-1 text-sm text-gray-500">2018</time>
+                <h3 class="text-lg font-semibold text-gray-900">Expanded Globally</h3>
+                <p class="text-gray-600">Opened offices in Singapore and London to serve international clients.</p>
+            </li>
+            <li class="mb-10 ml-6">
+                <div class="absolute w-3 h-3 bg-blue-600 rounded-full mt-2.5 -left-1.5"></div>
+                <time class="mb-1 text-sm text-gray-500">2021</time>
+                <h3 class="text-lg font-semibold text-gray-900">Digital Transformation</h3>
+                <p class="text-gray-600">Launched technology consulting services to help businesses embrace digital innovation.</p>
+            </li>
+            <li class="ml-6">
+                <div class="absolute w-3 h-3 bg-blue-600 rounded-full mt-2.5 -left-1.5"></div>
+                <time class="mb-1 text-sm text-gray-500">2025</time>
+                <h3 class="text-lg font-semibold text-gray-900">Trusted by 500+ Clients</h3>
+                <p class="text-gray-600">Today, we proudly serve over 500 businesses worldwide with expert consultation.</p>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- Mission & Vision -->
+<section class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12">
+    <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-2xl transition">
+        <h3 class="text-2xl font-bold text-blue-600">Our Mission</h3>
+        <p class="mt-4 text-gray-700">To empower businesses by providing innovative strategies, expert guidance, and tailored solutions that create long-term success.</p>
+    </div>
+    <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-2xl transition">
+        <h3 class="text-2xl font-bold text-blue-600">Our Vision</h3>
+        <p class="mt-4 text-gray-700">To be the world’s most trusted consultation partner, helping organizations achieve their full potential.</p>
+    </div>
+</section>
+{% endblock %}
